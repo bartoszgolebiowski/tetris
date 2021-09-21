@@ -1,1 +1,1 @@
-# tetris
+# Just snake

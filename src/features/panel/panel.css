@@ -1,0 +1,30 @@
+.panel__container {
+  display: flex;
+  margin: 0 1rem;
+}
+.panel__container > div {
+  display: flex;
+  flex-direction: column;
+}
+.panel__blocks {
+  margin-left: 2rem;
+  background-color: #343434;
+  justify-content: flex-end;
+}
+.panel__blocks > div:not(:first-child) {
+  margin-top: 1rem;
+  justify-content: center;
+}
+.panel__blocks--next {
+  border: 5px red solid;
+}
+.panel__interface {
+  margin: 0 1rem;
+  min-width: 8rem;
+}
+.panel__interface > * {
+  margin-bottom: 1rem;
+}
+.panel__interface--gameover {
+  color: red;
+}
